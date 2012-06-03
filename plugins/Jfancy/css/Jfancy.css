@@ -1,0 +1,84 @@
+#Jfancy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  text-align: left;
+}
+
+
+#Jfancy .popup{
+  position:relative;
+  border:3px solid rgba(0,0,0,0);
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  -webkit-box-shadow:0 0 18px rgba(0,0,0,0.4);
+  -moz-box-shadow:0 0 18px rgba(0,0,0,0.4);
+  box-shadow:0 0 18px rgba(0,0,0,0.4);
+}
+
+#Jfancy .content {
+  display:table;
+  width: 100px;
+  padding: 0px;
+ 
+  background: #e5e6d7;
+  
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;
+}
+
+#Jfancy .content > p:first-child{
+  margin-top:0;
+}
+#Jfancy .content > p:last-child{
+  margin-bottom:0;
+}
+
+#Jfancy .close{
+  position:absolute;
+  top:1px;
+  right:5px;
+  padding:2px;
+
+
+}
+#Jfancy .close img{
+  opacity:0.3;
+}
+#Jfancy .close:hover img{
+  opacity:1.0;
+}
+
+#Jfancy .loading {
+  text-align: center;
+}
+
+#Jfancy .image {
+  text-align: center;
+}
+
+#Jfancy img {
+  border: 0;
+  margin: 0;
+}
+
+/*
+*	Color Overlay(relleno)
+*/
+#Jfancy_overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+}
+.Jfancy_hide {
+  z-index:-100;
+}
+.Jfancy_overlayBG {
+  background-color: #000000;
+  z-index: 99;
+}

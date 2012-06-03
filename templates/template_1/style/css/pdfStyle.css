@@ -1,0 +1,17 @@
+	.pdfContentStyle
+	{
+		font-family: Century Gothic;
+		font-size: 14px;	
+		color:#35393c;
+	}
+
+	#log
+	{
+		width:230px;
+		height:86px;
+		background:url(images/log.png) no-repeat;
+	}	
+	img
+	{
+		border:1px #494949 solid;
+	}

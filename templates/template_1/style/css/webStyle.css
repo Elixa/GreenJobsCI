@@ -1,0 +1,415 @@
+
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		background-color:#e5e6d7;
+	}
+	#head
+	{
+		margin: 0px;
+		padding: 0px;
+		background-image: url(images/headBackground.png);
+		background-repeat: repeat-x;
+		height:153px;
+	}
+	#logo
+	{
+		width:217px;
+		height:72px;
+		background:url(images/logo.png) no-repeat;
+	}
+	#body
+	{
+		background-color:#e5e6d7;
+		display:block;		
+	}
+	#centerStyle
+	{
+		margin-top:20px;
+		border:1px #a0a196 solid;
+		border-radius: 10px;
+		-ms-border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+		-khtml-border-radius: 10px;
+		background-color:#ffffff;
+		
+	}
+	#menuLateral
+	{
+		margin: 0px;
+		padding: 0px;
+		background-image: url(images/laterals.png);
+		background-repeat: repeat-x;
+		height:88px;		
+	}
+	#menuLeft
+	{
+		margin: 0px;
+		padding: 0px;
+		background-image: url(images/menuOne.png);
+		width:18px;
+		height:81px;
+		float:left;
+	}
+	#menuCenter
+	{
+		margin: 0px;
+		padding: 0px 0px 0px 0px;
+		background-image: url(images/menuCentral.png);
+		background-repeat: repeat-x;
+		width:1021px;
+		height:81px;	
+		float:left;
+	}	
+	#menuRight
+	{
+		margin: 0px;
+		padding: 0px;
+		background-image: url(images/menuThree.png);
+		width:11px;
+		height:81px;
+		float:left;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#controlPanel
+	{
+		float:left;
+	}
+	#cpanelUp
+	{
+		background-image: url(images/cpanelUp.gif);
+		background-repeat: repeat-y;
+		padding:10px;		
+	}
+	#separatorOne
+	{
+		width:205px;
+		height:1px;
+		background-color: #0f1011;	
+	}
+	#separatorTwo
+	{
+		width:205px;
+		height:1px;
+		background-color: #3b4044;	
+	}
+	#cpanelDown
+	{
+		width:233px;
+		height:24px;
+		background:url(images/cpanelDown.gif) no-repeat;
+	}
+	
+	#verticalLineOne
+	{
+		background-color: #cfcfcf;	
+
+	}
+	#verticalLineTwo
+	{
+		width:1px;
+		background-color: #ffffff;	
+		float:left;
+	
+	}
+	#compatibity
+	{
+		min-height:600px;
+		display:block;
+	}
+		
+	#dinamicContent
+	{
+	
+	}
+	#footer
+	{
+		height:50px;
+		padding:10px;
+	}
+
+	.titleStyle
+	{
+		font-family: Century Gothic;
+		font-size: 18px;	
+		color:#35393c;
+	}
+
+	
+	.contentStyle
+	{
+		font-family: Century Gothic;
+		font-size: 14px;	
+		color:#35393c;
+	}
+	/*
+		Tamaño del contenedor dinamico
+	*/
+	.centralizer
+	{
+		margin:0px auto;
+		width:1050px;
+	}
+
+	.lnkCss
+	{
+		text-decoration:none;
+		color:#e5e6d7;
+		font-family: verdana;
+		font-size: 12px;		
+	}
+	.letterStyle
+	{
+		color:#e5e6d7;
+		font-family: verdana;
+		font-size: 12px;	
+	}	
+	.lnkCss:hover
+	{
+		text-decoration:underline;
+	}
+	.enlCss
+	{
+		text-decoration:none;
+		color:#708c00;
+		font-family: verdana;
+		font-size: 12px;
+		font-weight:bold;	
+	}
+	.encCss
+	{
+		text-decoration:none;
+		color:#ced817;
+		font-family: verdana;
+		font-size: 12px;
+		font-weight:bold;	
+	}
+	.encBlackCss
+	{
+		text-decoration:none;
+		color:#000000;
+		font-family: verdana;
+		font-size: 12px;
+		font-weight:bold;	
+	}
+	.enlCss:hover, .encCss:hover, .encBlackCss:hover
+	{
+		text-decoration:underline;
+	}	
+	
+	#cpanelTitle
+	{
+		color:#e5e6d7;
+		font-family: Century Gothic;
+		font-size: 20px;	
+		margin-left:5px;
+	}
+	
+	.btmStyle
+	{
+		background:url(images/sprite.png) 0px 0px no-repeat;
+		width:68px;
+		height:30px;
+		color:#ffffff;
+		cursor:pointer;
+		border:0px;
+		text-decoration:none;	
+	}
+	.btmStyle:hover
+	{
+		background:url(images/sprite.png) -69px 0px no-repeat;
+	}
+
+	.error
+	{
+		color:#ff9e9e;
+		font-size:12px;	
+	}
+	
+	/*
+		ICONS	
+	*/
+	#iconPolice
+	{
+		width:20px;
+		height:20px;
+		background:url(images/icons/police.png) no-repeat;	
+	}
+	#iconUsers
+	{
+		width:20px;
+		height:20px;
+		background:url(images/icons/group.png) no-repeat;	
+	}
+	#iconInstall
+	{
+		width:128px;
+		height:128px;
+		background:url(images/install.png) no-repeat;		
+	}
+	#iconMultas
+	{
+		width:20px;
+		height:20px;
+		background:url(images/icons/multa.png) no-repeat;	
+	}
+	#iconRanges
+	{
+		width:20px;
+		height:20px;
+		background:url(images/icons/range.png) no-repeat;	
+	}
+	#iconMap
+	{
+		width:20px;
+		height:20px;
+		background:url(images/icons/googleMap.png) no-repeat;	
+		float:right;
+	}
+	#iconMap2
+	{
+		width:20px;
+		height:20px;
+		background:url(images/icons/googleMap.png) no-repeat;	
+	}
+	#iconBirth
+	{
+		width:20px;
+		height:20px;
+		background:url(images/icons/cake.png) no-repeat;
+	}
+	#iconLoading
+	{
+		width:16px;
+		height:16px;
+		background:url(images/icons/loading.gif) no-repeat;
+		display:none;
+		
+	}
+
+	#iconTick
+	{
+		background:url(images/sprite.png) 0px -33px no-repeat;
+		width:17px;
+		height:16px;	
+	}
+	#iconBlock
+	{
+		background:url(images/sprite.png) -17px -33px no-repeat;
+		width:18px;
+		height:16px;	
+	}
+	#iconInfo
+	{
+		background:url(images/sprite.png) -34px -33px no-repeat;
+		width:20px;
+		height:20px;	
+	}
+	#iconAlert
+	{
+		background:url(images/sprite.png) -53px -33px no-repeat;
+		width:20px;
+		height:17px;	
+	}	
+	
+	/*Messages*/
+	#notifyMessage
+	{
+		color:#35393c;
+		font-family: Verdana;
+		font-size: 12px;	
+	}
+	#notifyTick
+	{
+		padding:10px;
+		color:#201f25;
+		border:1px solid #b4fac8;
+		background-image: url(images/tickBackground.gif);
+		background-repeat: repeat-x;	
+		background-color: #4fd660;
+	
+	}
+	#notifyWarning
+	{
+		padding:10px;
+		color:#201f25;
+		border:1px solid #f9f8c7;
+		background-image: url(images/warningBackground.gif);
+		background-repeat: repeat-x;	
+		background-color: #dabe41;	
+	}	
+	#notifyInfo{
+		padding:10px;
+		color:#201f25;
+		border:1px solid #c7e6f9;
+		background-image: url(images/infoBackground.gif);
+		background-repeat: repeat-x;	
+		background-color: #5a97e7;		
+	}
+	#notifyBlock
+	{
+		padding:10px;
+		color:#201f25;
+		border:1px solid #f99898;
+		background-image: url(images/blockBackground.gif);
+		background-repeat: repeat-x;	
+		background-color: #e24426;	
+	}
+	
+	#commentBox
+	{
+		padding:5px;
+		border:1px #bbbbbb solid;
+		background-color:#fcfcfc;
+	}	
+	.raitingNo	
+	{
+		color:#fff;
+		background-color:#e20000;
+		border:1px #000 solid;
+	}	
+	#editElement
+	{
+		width:16px;
+		height:16px;
+		background:url(images/icons/application_edit.png) no-repeat;
+		float:left;	
+	}
+	
+	.menuContextualOne
+	{
+		background:url(images/1.gif) no-repeat;
+		width:19px;
+	}
+	.menuContextualTwo
+	{
+		background:url(images/2.gif) repeat-x;
+	}
+	.menuContextualThree
+	{
+		background:url(images/3.gif)no-repeat;
+		width:19px;
+	}
+	
