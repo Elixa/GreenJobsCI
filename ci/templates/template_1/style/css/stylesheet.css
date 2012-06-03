@@ -1,0 +1,45 @@
+
+.box {
+	margin-bottom: 15px;
+}
+.box > .heading {
+	height: 40px;
+	background: url('images/box_center.png') repeat-x;
+	margin-bottom: 0px;
+}
+.box > .left {
+	float: left;
+	width: 7px;
+	height: 40px;
+	background: url('images/box_left.png') no-repeat;
+}
+.box > .right {
+	float: right;
+	width: 7px;
+	height: 40px;
+	background: url('images/box_right.png') no-repeat;
+}
+.box > .heading h5 {
+	background-position:  2px 9px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 5px 0px 11px 10px;
+	color: #e5e6d7;
+	font-size: 11px;
+}
+.box > .heading h3, .box > .heading h4 {
+	background-position:  2px 9px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 11px 0px 11px 10px;
+	color: #e5e6d7;
+	font-size: 14px;
+}
+
+.box > .content {
+	padding: 10px;
+	border-left: 1px solid #b4b4b4;
+	border-right: 1px solid #b4b4b4;
+	border-bottom: 1px solid #b4b4b4;
+	min-height: 50px;
+}
